@@ -1,3 +1,9 @@
+# revision 17121
+# category Package
+# catalog-ctan /macros/latex/contrib/cd-cover
+# catalog-date 2010-02-21 01:36:59 +0100
+# catalog-license gpl
+# catalog-version 1.0
 Name:		texlive-cd-cover
 Version:	1.0
 Release:	1
@@ -44,6 +50,7 @@ plastic slip-cover.
 #- source
 %doc %{_texmfdistdir}/source/latex/cd-cover/cd-cover.dtx
 %doc %{_texmfdistdir}/source/latex/cd-cover/cd-cover.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ plastic slip-cover.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
