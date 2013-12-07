@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-cd-cover
 Version:	1.0
-Release:	3
+Release:	4
 Summary:	Typeset CD covers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cd-cover
