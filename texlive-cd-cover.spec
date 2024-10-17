@@ -3,7 +3,7 @@ Version:	17121
 Release:	2
 Summary:	Typeset CD covers
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cd-cover
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/cd-cover
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cd-cover.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cd-cover.doc.r%{version}.tar.xz
